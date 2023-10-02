@@ -6,6 +6,8 @@ Built to: practice more React stuff, React Router v6.4+ with data loaders, Redux
 
 ### Live site:
 
+https://chiaras-pizza.netlify.app/
+
 ### Functionalities:
 
 - view menu
