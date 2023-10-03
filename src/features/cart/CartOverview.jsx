@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { getTotalCartQty, getTotalCartPrice } from "./cartSlice";
 import { formatCurrency } from "../../utils/helpers";
 
@@ -16,7 +16,8 @@ function CartOverview() {
     getTotalCartPrice,
   );
 
-  if (!totalCartQuantity) return null;
+  const location = useLocation();
+  if (!totalCartQuantity || location.pathname === "/cart") return null;
 
   return (
     <div className="absolute bottom-[92px] z-20 lg:bottom-[56px]">
