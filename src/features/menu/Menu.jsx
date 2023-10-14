@@ -4,6 +4,7 @@ import MenuItem from "./MenuItem";
 
 function Menu() {
   const menu = useLoaderData();
+  // console.log(menu.data.pizzas);
 
   return (
     <div className=" mb-[148px] mt-[61px] flex items-center justify-center bg-[#f7f2e9] ">
@@ -14,7 +15,9 @@ function Menu() {
 
         <ul className="divide-y divide-stone-200 px-2 ">
           {menu.map((pizza) => (
+            // {menu.data.pizzas.map((pizza) => (
             <MenuItem pizza={pizza} key={pizza.id} />
+            // <MenuItem pizza={pizza} key={pizza._id} />
           ))}
         </ul>
       </div>
