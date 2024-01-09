@@ -18,12 +18,12 @@ function CreateUser() {
 
   return (
     <form onSubmit={handleSubmit} className="flex flex-col items-center">
-      <p className="mb-4 text-center text-sm text-stone-100  md:text-base">
+      <p className="mb-2 w-4/5 rounded-lg bg-slate-900/30 py-2 text-center text-sm text-stone-100 xs:mb-4  md:text-base">
         Welcome! Please start by telling us your name:
       </p>
 
       <input
-        className="input mb-8 w-72"
+        className="input mb-4 w-72 xs:mb-8"
         type="text"
         placeholder="Your name"
         value={username}

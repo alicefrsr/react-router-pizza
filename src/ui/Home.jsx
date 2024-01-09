@@ -7,11 +7,11 @@ function Home() {
   return (
     // <div className="my-10  px-4 text-center sm:my-16 ">
     // <div className="flex justify-center ">
-    <div className="flex h-screen w-screen flex-col items-center justify-center gap-10 bg-[url('/nik-unsplash.jpg')] bg-cover bg-center pb-[180px]  ">
-      <h1 className=" rounded-lg bg-slate-900/30 p-4 text-xl font-semibold uppercase tracking-wide text-yellow-500 sm:text-3xl md:text-5xl md:tracking-widest lg:text-7xl">
+    <div className="flex h-screen w-screen flex-col items-center justify-center gap-4 bg-[url('/nik-unsplash.jpg')] bg-cover bg-center pb-[180px] xs:gap-10  ">
+      <h1 className="mt-28 rounded-lg bg-slate-900/30 p-4 text-xl font-semibold uppercase tracking-wide text-yellow-500 xs:mt-12 xs:text-3xl md:text-5xl md:tracking-widest lg:text-7xl">
         Get the best pizza.
       </h1>
-      <p className="w-3/5 text-center text-stone-100">
+      <p className="w-3/5 text-center text-xs text-stone-100 xs:text-base">
         Authentic italian cuisine. Straight out from our stone oven, all made
         with organic and local ingredients.
       </p>
