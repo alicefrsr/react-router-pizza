@@ -63,7 +63,7 @@ function Order() {
 
   return (
     <div className="mb-[148px]  mt-[100px] flex items-center justify-center ">
-      <div className="w-5/6 space-y-8 px-6 py-4 text-center sm:w-2/3 lg:w-1/2 ">
+      <div className="w-[90%] space-y-8 px-6 py-4 text-center sm:w-2/3 lg:w-1/2 ">
         <div className="flex flex-wrap items-center justify-between gap-2">
           <h2 className="text-xl font-semibold">Your order #{id} status:</h2>
 

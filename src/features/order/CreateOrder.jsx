@@ -142,7 +142,7 @@ function CreateOrder() {
                 : ""
             }
           />
-          <div>
+          <div className="pb-8">
             <Button type="primary" disabled={isSubmitting}>
               {isSubmitting
                 ? "Placing order..."

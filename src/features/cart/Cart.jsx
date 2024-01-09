@@ -56,7 +56,7 @@ function Cart() {
 
   return (
     <div className="mb-[148px]  mt-[100px] flex justify-center ">
-      <div className=" w-5/6 px-4 py-3 sm:w-2/3 lg:w-1/2 ">
+      <div className=" w-[90%] px-4 py-3 sm:w-2/3 lg:w-1/2 ">
         {/* <div className=" w-5/6 sm:w-2/3 lg:w-1/2 "> */}
         <LinkButton to="/menu">&larr; Back to menu</LinkButton>
 
