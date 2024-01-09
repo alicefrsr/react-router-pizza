@@ -6,8 +6,14 @@ export default {
       sans: "Roboto Mono, monospace",
     },
     extend: {
+      screens: {
+        xs: "500px",
+      },
       height: {
         screen: "100dvh",
+      },
+      width: {
+        screen: "100dvw",
       },
     },
   },

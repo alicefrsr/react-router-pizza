@@ -46,7 +46,7 @@ function CreateOrder() {
 
   if (cart.length === 0) return <EmptyCart />;
   return (
-    <div className="mb-[148px] mt-[100px] flex justify-center  ">
+    <div className="mb-[148px] mt-[100px] flex justify-center">
       {/* <div className="w-3/5 px-4 py-6"> */}
       <div className="w-5/6 px-4 py-6  sm:w-2/3 lg:w-1/2">
         <h2 className="mb-8 text-xl font-semibold">

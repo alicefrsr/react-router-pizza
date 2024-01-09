@@ -1,6 +1,6 @@
 function Footer() {
   return (
-    <div className="absolute bottom-0 z-10">
+    <div className="absolute bottom-0 ">
       <div className="w-screen items-center justify-around bg-stone-800 px-4 py-4 text-center text-sm text-stone-200 sm:px-6  lg:flex lg:text-base">
         {/* <p className="space-x-4 text-sm font-semibold text-stone-300 sm:space-x-4 md:text-base"> */}
         <p>Via Felice Cascione, 18100 Imperia, Italy </p>

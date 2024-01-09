@@ -68,11 +68,11 @@ function Order() {
           <h2 className="text-xl font-semibold">Your order #{id} status:</h2>
 
           <div className="space-x-2">
-            <span className="text rounded-full bg-green-500 px-3 py-1 text-sm font-semibold uppercase tracking-wide text-green-50">
+            <span className="text rounded-full bg-green-500 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-green-50 sm:text-sm">
               {status} order
             </span>
             {priority && (
-              <span className="text rounded-full bg-red-500 px-3 py-1 text-sm font-semibold uppercase tracking-wide text-red-50">
+              <span className="text rounded-full bg-red-500 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-red-50 sm:text-sm">
                 Priority
               </span>
             )}
