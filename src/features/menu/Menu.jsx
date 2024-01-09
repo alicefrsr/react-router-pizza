@@ -7,7 +7,7 @@ function Menu() {
   // console.log(menu.data.pizzas);
 
   return (
-    <div className=" mb-[148px] mt-[61px] w-[90%] bg-[#f7f2e9] sm:flex sm:w-full sm:items-center  sm:justify-center ">
+    <div className=" mb-[148px] mt-[61px] flex items-center justify-center bg-[#f7f2e9] ">
       <div className="flex flex-col items-center ">
         <h2 className="my-12 border-y-2 border-stone-500 py-2 text-center text-lg font-semibold uppercase tracking-wide sm:py-4 sm:text-2xl">
           Today&#39;s menu
